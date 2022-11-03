@@ -10,7 +10,7 @@ function color_finder(models, color_dict)
 end
 
 #setup color per model
-model = ["DT", "SVM", "CL","DE", "NN", "RE", "BA"]
+model = ["DT", "SVM", "CL","DE", "NN", "LS", "BA"]
 colors = ["orangered","cornflowerblue","yellowgreen","orange","mediumpurple","gold","orchid"]
 color_dict = Dict(zip(model, colors))
 

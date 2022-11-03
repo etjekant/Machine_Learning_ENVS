@@ -63,7 +63,7 @@ function corrector(total_best_labels, total_best_count, best_names, best_count)
     end
     return return_array, total_best_labels
 end
-model = ["DT", "SVM", "CL","DE", "NN", "RE", "BA"];
+model = ["DT", "SVM", "CL","DE", "NN", "LS", "BA"];
 colors = ["orangered","cornflowerblue","yellowgreen","orange","mediumpurple","gold","orchid"];
 color_dict = Dict(zip(model, colors));
 
